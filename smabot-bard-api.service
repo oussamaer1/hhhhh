@@ -1,0 +1,15 @@
+[Unit]
+Description=SmaBot Bard API
+Documentation=https://wildybytes.com
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/program/SmaBot/Server
+ExecStart=/bin/bash start-bard
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

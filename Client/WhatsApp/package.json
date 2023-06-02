@@ -1,0 +1,21 @@
+{
+  "name": "SmaBot [ WhatsApp ]",
+  "version": "1.0.0",
+  "description": "SmaBot is a WhatsApp bot that aims to assist users in completing their tasks using the power of AI. It has a range of features, including image searching, that can aid in the completion of tasks. Additionally, WildyBot provides numerous other features that users can explore and use to their advantage.",
+  "author": {
+    "name": "Wildy Sheverando [WildyBytes]",
+    "email": "admin@wildybytes.com",
+    "url": "https://github.com/oussamaer1"
+  },
+  "license": "GPL-3.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "figlet": "^1.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.21.0"
+  }
+}

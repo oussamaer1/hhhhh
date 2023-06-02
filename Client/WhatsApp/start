@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /program/SmaBot/Client/WhatsApp/
+
+/opt/node/18.16.0/bin/node app.js

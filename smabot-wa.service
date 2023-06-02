@@ -1,0 +1,15 @@
+[Unit]
+Description=SmaBot WhatsApp
+Documentation=https://wildybytes.com
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/program/SmaBot/Client/WhatsApp
+ExecStart=/bin/bash start
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
